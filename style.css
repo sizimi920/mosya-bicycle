@@ -128,6 +128,16 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
+  section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  nav a {
+    display: inline-block;
+    padding: 8px 12px;
+  }
+
   .about-1 {
     flex-direction: column;
     align-items: center;
@@ -137,7 +147,11 @@ footer p {
   .about-1 img {
     margin: 0px;
   }
-  
+
+  .about-2 {
+    text-align: center;
+  }
+
   .bicycle-list li {
     width: 100%;
   }
