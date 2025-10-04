@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-  padding-bottom: 10px;
+  margin: 10px 0;
 }
 
 img {
@@ -125,4 +125,20 @@ footer {
 
 footer p {
   font-size: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .about-1 {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+  }
+
+  .about-1 img {
+    margin: 0px;
+  }
+  
+  .bicycle-list li {
+    width: 100%;
+  }
 }
